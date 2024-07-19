@@ -121,6 +121,55 @@ h2{
     margin-bottom: 10px;
 }
 
+/* created for */
+
+.created-for h2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.created-for p{
+    color: #7D7F84;
+    margin-bottom: 20px;
+}
+
+.for-row{
+    gap: 10px;
+}
+
+.for-card{
+    flex-basis: calc(50% - 5px);
+    text-align: center;
+}
+
+.for-card img{
+    margin-bottom: 15px;
+}
+
+/* Artist */
+
+.artist h2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.artist p{
+    color: #7D7F84;
+    margin-bottom: 20px;
+}
+
+.artist-row{
+    gap: 10px;
+}
+
+.art-card{
+    flex-basis: calc(50% - 5px);
+    text-align: center;
+}
+
+.art-card img{
+    border-radius: 50%;
+}
 
 /* sidebar */
 
