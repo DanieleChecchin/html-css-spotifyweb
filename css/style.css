@@ -1,0 +1,53 @@
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+
+body{
+    font-family: Montserrat;
+    color: white;
+}
+
+/* Utils */
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* TOP CONTENT */
+
+.top-content{
+    background-color: #141922;
+    height: calc(100vh - 100px);
+    overflow: auto;
+}
+
+/* header */
+
+header{
+    height: 100px;
+    background-color: #00000091;
+    position: fixed;
+    top: 0;
+    right: 17px;
+    width: 100%;
+}
+
+/* main */
+
+main{
+    padding-top: 130px;
+}
+
+/* FOOTER */
+
+footer{
+    height: 100px;
+    background-color: #282828;
+}
