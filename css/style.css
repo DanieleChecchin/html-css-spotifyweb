@@ -82,14 +82,13 @@ main{
 /* main bar */
 
 .main-bar ul{
-    flex-wrap: wrap;
-    row-gap: 25px;
-    justify-content: center;
+    text-align: center;
 }
 
 .main-bar li{
     color: #7D7F84;
-    flex-basis: calc(100% / 4 - 30px / 3);
+    margin: 5px;
+    display: inline-block;
     font-size: 14px;
 }
 
