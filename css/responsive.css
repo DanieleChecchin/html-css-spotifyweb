@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 768px){
 
-    /* larghezza sidebar*/
+    
     .sidebar{
         flex-basis: 200px;
         padding: 15px;
@@ -23,11 +23,28 @@
 
     .sidebar img{
         width: 20%;
+        margin-right: 10px;
     }
 
     #logo{
         display: block;
-        width: 65%;
+        width: 80%;
+    }
+
+    .download{
+        border-bottom: 1px solid white;
+        padding-bottom: 10px;
+    }
+
+    .play,
+    .time{
+        width: 500px;
+    }
+
+    .settings,
+    .volume-bar{
+        width: 100px;
+        text-align: center;
     }
 }
 

@@ -212,6 +212,11 @@ h2{
     color: #7D7F84;
 }
 
+.playlist{
+    overflow-y: auto;
+    margin: 20px 0;
+}
+
 #logo{
     display: none;
 }
@@ -226,17 +231,19 @@ footer{
     padding: 20px;
 }
 
-footer > *{
-    flex-basis: calc(100% / 3 - 20px / 3);
-}
-
 .foot-left{
     gap: 10px;
     align-items: center;
+    width: 150px;
+    height: 100%;
 }
 
-.foot-left > *{
-    flex-basis: calc(100% / 3 - 20px / 3);
+.album-img{
+    width: 40%;
+}
+
+.album{
+    width: 50%;
 }
 
 .left-icon{
