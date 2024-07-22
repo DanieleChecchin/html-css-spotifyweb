@@ -1,4 +1,36 @@
-/* 576px */
 /* 768px */
+
+@media screen and (min-width: 768px){
+
+    /* larghezza sidebar*/
+    .sidebar{
+        flex-basis: 200px;
+        padding: 15px;
+    }
+
+    .sidebar span{
+        display: inline-block;
+    }
+    
+    .logo-small{
+        display: none;
+    }
+
+    .sidebar li{
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .sidebar img{
+        width: 20%;
+    }
+
+    #logo{
+        display: block;
+        width: 65%;
+    }
+}
+
+
 /* 992px */
 /* 1200px */
