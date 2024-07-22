@@ -50,10 +50,10 @@ a{
 header{
     height: 100px;
     background-color: #090b0fb8;
-    position: fixed;
+    position: sticky;
     top: 0;
-    right: 17px;
-    width: 100%;
+    right: 0;
+    left: 0;
     justify-content: flex-end;
 }
 
@@ -73,10 +73,11 @@ header button{
 /* main */
 
 main{
-    
-    padding-top: 130px;
-    padding-left: 70px;
-    padding-right: 25px;
+    overflow: auto;
+}
+
+.main-content{
+    padding: 20px;
 }
 
 /* main bar */
@@ -174,10 +175,8 @@ h2{
 
 .sidebar{
     background-color: black;
-    height:calc(100% - 100px);
     width: 50px;
-    position: fixed;
-    z-index: 1;
+    flex-shrink: 0;
     flex-direction: column;
     justify-content: space-between;
     padding: 20px 0;
@@ -208,3 +207,4 @@ footer{
     z-index: 1;
     width: 100%;
 }
+
