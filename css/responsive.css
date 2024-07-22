@@ -50,4 +50,22 @@
 
 
 /* 992px */
+
+@media screen and (min-width: 992px){
+    .row{
+        justify-content: flex-start;
+    }
+
+    .row .card{
+        flex-basis: calc(100% / 4 - 30px / 4);
+    }
+
+    .for-card,
+    .art-card{
+        flex-basis: calc(100% / 4);
+    }
+
+}
+
+
 /* 1200px */
