@@ -37,6 +37,10 @@ a{
     display: flex;
 }
 
+.second-color{
+    color: #7D7F84;
+}
+
 /* TOP CONTENT */
 
 .top-content{
@@ -206,5 +210,105 @@ footer{
     position: fixed;
     z-index: 1;
     width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+}
+
+footer > *{
+    flex-basis: calc(100% / 3 - 20px / 3);
+}
+
+.foot-left{
+    gap: 10px;
+    align-items: center;
+}
+
+.foot-left > *{
+    flex-basis: calc(100% / 3 - 20px / 3);
+}
+
+.left-icon{
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 30px;
+}
+
+.play{
+    text-align: center;
+}
+
+.play button{
+    margin: 0 8px;
+}
+
+footer button{
+    background-color: transparent;
+    color: white;
+    border: 0;
+    
+    font-size: 15px;
+}
+
+.fa-circle-play{
+    font-size: 20px;
+}
+
+.time{
+    align-items: center;
+    margin-top: 15px;
+}
+
+.time-left{
+    flex-basis: 20%;
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.time-bar{
+    flex-basis: 60%;
+    height: 5px;
+    border: 1px solid ;
+}
+
+.now-bar{
+    background-color: white;
+    width: 30%;
+    height: 100%;
+}
+
+.time-right{
+    flex-basis: 20%;
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.foot-right{
+    align-items: center;
+}
+
+.settings{
+    flex-basis: 45%;
+}
+
+.fa-desktop{
+    margin: 0 5px;
+}
+
+.volume-bar{
+    flex-basis: 55%;
+}
+
+.volume-bar{
+    height: 5px;
+    border: 1px solid;
+}
+
+.now-volume{
+    background-color: white;
+    width: 20%;
+    height: 100%;
 }
 
