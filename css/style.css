@@ -256,6 +256,10 @@ figure{
     color: #7D7F84;
 }
 
+.sidebar span:hover{
+    color: white;
+}
+
 .playlist{
     overflow-y: auto;
     margin: 20px 0;
