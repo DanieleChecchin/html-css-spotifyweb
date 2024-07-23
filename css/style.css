@@ -95,6 +95,15 @@ main{
     text-align: center;
 }
 
+.main-bar li.active::after{
+    content: "";
+    display: block;
+    width: 30%;
+    height: 2px;
+    background-color: #adff2f;
+    margin: 3px auto;
+}
+
 .main-bar li{
     color: #7D7F84;
     margin: 5px;
